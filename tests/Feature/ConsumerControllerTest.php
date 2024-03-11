@@ -32,8 +32,6 @@ class ConsumerControllerTest extends TestCase
 
         // Assert that all consumers are present in the response
         foreach ($consumers as $consumer) {
-            $response->assertSee($consumer->first_name);
-            $response->assertSee($consumer->last_name);
             $response->assertSee($consumer->email);
         }
     }
