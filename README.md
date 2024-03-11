@@ -24,7 +24,7 @@ php artisan serve
 
 Testing
 php artisan test
-php artisan db:seed
+php artisan migrate:fresh --seed
 
 
 Brief Description about the app
