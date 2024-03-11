@@ -1,4 +1,3 @@
-To set up the RiskAdvisor Insurance Platform on your local machine, follow these steps:
 
  Clone this repository to your local machine:
    ```bash
