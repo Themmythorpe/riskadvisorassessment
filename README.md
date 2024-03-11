@@ -7,11 +7,11 @@ Navigate into the project directory:
 
 cd riskadvisorassessment
 
-
-composer install
-
 npm install
 npm run dev
+composer install
+
+
 cp .env.example .env
 
 php artisan key:generate
