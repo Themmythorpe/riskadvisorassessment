@@ -24,6 +24,8 @@ php artisan serve
 
 Testing
 php artisan test
+php artisan db:seed
+
 
 Brief Description about the app
 
